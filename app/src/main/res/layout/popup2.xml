@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listAdress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/addAddress"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_bg"
+        android:text="添加地址"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
